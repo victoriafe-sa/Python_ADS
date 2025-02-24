@@ -3,6 +3,8 @@ lista = ['Senac', 'curso', 'Tecnologia', 'ADS', 2025, 3.25]
 print(lista)
 print(type(lista))
 print(lista[2])
+lista.append('Cursando')
+print(lista)
 print('-'*30,'\n')
 
 #Tupla()
