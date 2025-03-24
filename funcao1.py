@@ -29,3 +29,10 @@ operacoes(int(input('Digite o primeiro valor: ')),int(input('Digite o segundo va
 
 print('-'*30)
 
+def parImpar(num):
+    if num%2==0:
+        print('O numero é par')
+    else: 
+        print('o numero é impar')
+        
+parImpar(2)
