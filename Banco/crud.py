@@ -5,7 +5,7 @@ conexao = mysql.connector.connect(
     user = 'root',
     password = '',
     database = 'facsenac',
-    port = ''
+    port = '3306'
 )
 
 cursor = conexao.cursor()
