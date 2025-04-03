@@ -4,7 +4,8 @@ conexao = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
     password = '',
-    database = 'facsenac'
+    database = 'facsenac',
+    port = ''
 )
 
 cursor = conexao.cursor()
@@ -19,5 +20,4 @@ comando = f'INSERT INTO editora(codeditora, nome_editora) values ({cod}, "{nome_
 cursor.execute(comando)
 conexao.commit() #edita o banco
 
-#resultado = cursor.fetchall() #ler o banco
-
+#resultado = cursor.fetchall() #ler o bancop
