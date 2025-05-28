@@ -13,7 +13,7 @@ cursor = conexao.cursor()
 #conexao.close()
 
 #CRUD
-cod = 15
+cod = 53 
 nome_editora = 'senac'
 
 comando = f'INSERT INTO editora(codeditora, nome_editora) values ({cod}, "{nome_editora}")'
